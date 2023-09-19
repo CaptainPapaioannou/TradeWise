@@ -1,5 +1,5 @@
 # TradeWise
-##Web app via which you can manage virtual portfolios of stocks.
+Web app via which you can manage virtual portfolios of stocks.
 
 ## Features
  -"Buy" and "Sell" real stocks in real time with the use of Yahoo Finance API
