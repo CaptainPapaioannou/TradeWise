@@ -1,0 +1,38 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Home
+{% endblock %}
+
+{% block main %}
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>Stock</th>
+                <th>Shares</th>
+                <th>Price</th>
+                <th>Total Hodings</th>
+            </tr>
+        </thead>
+        <tfoot>
+            <tr>
+                <td colspan="4">TOTAL</td>
+                <td>{{ ground_total | usd }}</td>
+            </tr>
+        </tfoot>
+        <tbody>
+            {% for row in rows %}
+                <tr>
+                    <td>{{ row.stock }}</td>
+                    <td>{{ row.sum_of_shares }}</td>
+                    <td>{{ row.price | usd }}</td>
+                    <td>{{ row.total | usd }}</td>
+                </tr>
+            {% endfor %}
+            <tr>
+                <td colspan="4">CASH</td>
+                <td>{{ cash_balance | usd }}</td>
+            </tr>
+        </tbody>
+    </table>
+{% endblock %}
