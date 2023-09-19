@@ -2,19 +2,19 @@
 Web app via which you can manage virtual portfolios of stocks.
 
 ## Features
- -"Buy" and "Sell" real stocks in real time with the use of Yahoo Finance API
- -Play around in the stock market and learn how to trade without risking your real money
- -Manage multiple portfolios and interact with different accounts
+ - "Buy" and "Sell" real stocks in real time with the use of Yahoo Finance API
+ - Play around in the stock market and learn how to trade without risking your real money
+ - Manage multiple portfolios and interact with different accounts
 
 
 ## Installation
--Download the files
--Install Flask (if you haven't allready)
--On your bash command prompt, cd into the directory of the downloaded files
--Execute:
-```
-flask run
-```
+- Download the files
+- Install Flask (if you haven't allready)
+- On your bash command prompt, cd into the directory of the downloaded files
+- Execute:
+ ```
+ flask run
+ ```
 
 
 ## Usage
